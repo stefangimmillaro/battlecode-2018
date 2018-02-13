@@ -38,9 +38,6 @@ pub const MAP_WIDTH_MAX: usize = 50;
 /// The minimum starting Karbonite deposit on Earth.
 pub const MAP_KARBONITE_MIN: u32 = 0;
 
-/// The maximum starting Karbonite deposit on Earth.
-pub const MAP_KARBONITE_MAX: u32 = 50;
-
 // *********************************
 // ****** WEATHER CONSTANTS ********
 // *********************************

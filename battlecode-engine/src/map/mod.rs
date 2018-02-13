@@ -186,7 +186,7 @@ impl PlanetMap {
             for x in 0..self.width {
                 // The initial karbonite has limited values.
                 let karbonite = self.initial_karbonite[y][x];
-                if karbonite < MAP_KARBONITE_MIN || karbonite > MAP_KARBONITE_MAX {
+                if karbonite < MAP_KARBONITE_MIN {
                     println!("Planet has initial karbonite {} at ({}, {})",
                         karbonite, x, y);
                     valid = false;
