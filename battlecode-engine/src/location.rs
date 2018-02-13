@@ -14,17 +14,17 @@ use super::unit::UnitID;
 /// Coordinates increase in the north and east directions.
 #[derive(Debug, Clone, Copy, Serialize, Deserialize, PartialEq, Eq)]
 pub enum Direction {
-    North = 0,
-    Northeast = 1,
-    East = 2,
-    Southeast = 3,
-    South = 4,
-    Southwest = 5,
-    West = 6,
-    Northwest = 7,
+    North = 1,
+    Northeast = 2,
+    East = 3,
+    Southeast = 4,
+    South = 5,
+    Southwest = 6,
+    West = 7,
+    Northwest = 8,
 
     // No direction
-    Center = 8,
+    Center = 9,
 }
 
 impl Direction {
